@@ -1,0 +1,19 @@
+[project]
+name = "rtmlib"
+version = "0.1.0"
+description = "A library for real-time pose estimation."
+license = 'Apache-2.0'
+readme = "README.md"
+authors = [{ name = "Tau-J", email = "taujiang@outlook.com" }]
+keywords = ["pose estimation"]
+requires-python = ">=3.7"
+dependencies = [
+    "numpy>=2.2.6",
+    "onnxruntime>=1.22.0",
+    "opencv-contrib-python>=4.11.0.86",
+    "opencv-python>=4.11.0.86",
+    "tqdm>=4.67.1",
+]
+
+[project.urls]
+Repository = "https://github.com/Tau-J/rtmlib"
